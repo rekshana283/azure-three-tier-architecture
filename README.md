@@ -49,7 +49,6 @@ The Database Tier stores application data using Azure SQL Database. Database acc
 
 ## High-Level Architecture
 
-```text
                          INTERNET USERS
                                |
                                v

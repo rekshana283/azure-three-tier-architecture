@@ -1,6 +1,6 @@
 # Network Design
 
-![Network Design](../diagrams/02-azure-network-design.png)
+![Network Design](../diagrams/02-azure-network-design.jpeg)
 
 ## Overview
 

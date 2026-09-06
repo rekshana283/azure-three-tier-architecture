@@ -1,5 +1,7 @@
 # Project Overview
 
+![Project Overview](../diagrams/11-project-overview.png)
+
 ## Project Name
 
 Azure Secure & Highly Available 3-Tier Web Application

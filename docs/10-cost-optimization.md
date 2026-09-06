@@ -1,6 +1,6 @@
 # Cost Optimization
 
-![Azure Cost Optimization](../diagrams/09-azure-cost-optimization.png)
+![Azure Cost Optimization](../diagrams/09-azure-cost-optimization.jpeg)
 
 ## Overview
 

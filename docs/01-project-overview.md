@@ -1,6 +1,6 @@
 # Project Overview
 
-![Project Overview](../diagrams/11-project-overview.png)
+![Project Overview](../diagrams/11-project-overview.jpeg)
 
 ## Project Name
 

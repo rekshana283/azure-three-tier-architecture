@@ -1,6 +1,6 @@
 # Architecture Design
 
-![Architecture Design](../diagrams/03-architecture-design.png)
+![Architecture Design](../diagrams/03-architecture-design.jpeg)
 
 ## Overview
 

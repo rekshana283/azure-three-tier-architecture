@@ -1,6 +1,6 @@
 # Monitoring & Observability
 
-![Azure Monitoring Architecture](../diagrams/06-azure-monitoring-architecture.png)
+![Azure Monitoring Architecture](../diagrams/06-azure-monitoring-architecture.jpeg)
 
 ## Overview
 

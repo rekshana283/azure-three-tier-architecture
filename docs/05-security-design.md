@@ -1,6 +1,6 @@
 # Security Design
 
-![Security Architecture](../diagrams/04-azure-security-architecture.png)
+![Security Architecture](../diagrams/04-azure-security-architecture.jpeg)
 
 ## Overview
 

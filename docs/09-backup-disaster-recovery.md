@@ -1,6 +1,6 @@
 # Backup & Disaster Recovery
 
-![Backup and Disaster Recovery](../diagrams/08-backup-disaster-recovery.png)
+![Backup and Disaster Recovery](../diagrams/08-backup-disaster-recovery.jpeg)
 
 ## Overview
 

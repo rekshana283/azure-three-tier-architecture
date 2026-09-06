@@ -1,7 +1,5 @@
 # Azure Secure & Highly Available 3-Tier Web Application
 
-![Project Overview](diagrams/11-project-overview.jpeg)
-
 ![Azure](https://img.shields.io/badge/Microsoft%20Azure-Cloud-blue)
 ![Architecture](https://img.shields.io/badge/Project-Architecture%20Design-informational)
 ![Cloud Support](https://img.shields.io/badge/Focus-Cloud%20Support-success)
@@ -11,67 +9,28 @@
 
 ## Project Overview
 
-This project presents the design of a secure, scalable, and highly available 3-tier web application architecture using Microsoft Azure.
+This project is a design and documentation case study for a secure, scalable, and highly available 3-tier web application architecture using Microsoft Azure.
 
-The project is based on a fictional e-commerce application and demonstrates how a real-world cloud application can be designed, secured, monitored, and supported.
+## Documentation
 
-The architecture separates the application into three logical tiers:
+This project covers the following areas:
 
-- Web Tier
-- Application Tier
-- Database Tier
+1. **Project Overview** – Introduction to the Azure 3-tier architecture and project objectives.
+2. **Business Requirements** – Functional, security, availability, monitoring, operational, and cost requirements.
+3. **Architecture Design** – Overall Web, Application, and Database Tier architecture and traffic flow.
+4. **Network Design** – VNet, subnets, NSGs, private connectivity, DNS, and network traffic flow.
+5. **Security Design** – Application Gateway, WAF, NSGs, Private Endpoint, Key Vault, and security principles.
+6. **Identity & Access Management** – Microsoft Entra ID, RBAC, Managed Identity, and least-privilege access.
+7. **Monitoring & Observability** – Azure Monitor, Log Analytics, Application Insights, metrics, logs, and alerts.
+8. **High Availability** – Multiple instances, health checks, traffic distribution, scaling, and availability considerations.
+9. **Backup & Disaster Recovery** – Backup strategy, recovery process, RTO, RPO, and disaster recovery planning.
+10. **Cost Optimization** – Right-sizing, auto-scaling, resource cleanup, storage optimization, budgets, and cost monitoring.
+11. **Troubleshooting Guide** – Practical troubleshooting scenarios and investigation steps across the application layers.
+12. **Design Decisions** – Key architectural decisions, trade-offs, and design principles.
 
-The project also covers Azure networking, security, identity and access management, monitoring, high availability, disaster recovery, cost optimization, and troubleshooting.
+## Project Scope
 
-This is a design and documentation project. Azure resources are not deployed as a production environment.
+This is an architecture design and documentation project. Azure resources are not deployed as a production environment.
 
----
-
-## Architecture Overview
-
-![Azure 3-Tier Architecture](diagrams/01-azure-3-tier-architecture.png)
-
-The proposed architecture follows a layered approach where each tier has a specific responsibility.
-
-### Web Tier
-
-The Web Tier handles the user-facing part of the application and receives requests after they pass through Azure Application Gateway and Web Application Firewall.
-
-### Application Tier
-
-The Application Tier contains backend application services and APIs responsible for processing business logic.
-
-### Database Tier
-
-The Database Tier stores application data using Azure SQL Database. Database access is designed to use private connectivity rather than direct public access.
-
----
-
-## High-Level Architecture
-
-                         INTERNET USERS
-                               |
-                               v
-                    +----------------------+
-                    | Azure Application    |
-                    | Gateway + WAF        |
-                    +----------+-----------+
-                               |
-                               v
-                    +----------------------+
-                    |      WEB TIER        |
-                    | Azure App Services   |
-                    +----------+-----------+
-                               |
-                               v
-                    +----------------------+
-                    |  APPLICATION TIER    |
-                    | Backend APIs / App   |
-                    +----------+-----------+
-                               |
-                               v
-                    +----------------------+
-                    |    DATABASE TIER     |
-                    |   Azure SQL Database |
-                    +----------------------+
+The project demonstrates Azure architecture planning, cloud security, networking, monitoring, high availability, disaster recovery, cost awareness, and Cloud Support troubleshooting.
  

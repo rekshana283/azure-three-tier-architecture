@@ -1,6 +1,6 @@
 # Azure Secure & Highly Available 3-Tier Web Application
 
-![Project Overview](diagrams/11-project-overview.png)
+![Project Overview](diagrams/11-project-overview.jpeg)
 
 ![Azure](https://img.shields.io/badge/Microsoft%20Azure-Cloud-blue)
 ![Architecture](https://img.shields.io/badge/Project-Architecture%20Design-informational)

@@ -1,6 +1,6 @@
 # High Availability
 
-![High Availability Design](../diagrams/07-high-availability-design.png)
+![High Availability Design](../diagrams/07-high-availability-design.jpeg)
 
 ## Overview
 

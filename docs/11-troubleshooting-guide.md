@@ -1,6 +1,6 @@
 # Troubleshooting Guide
 
-![Azure Troubleshooting Flow](../diagrams/10-azure-troubleshooting-flow.png)
+![Azure Troubleshooting Flow](../diagrams/10-azure-troubleshooting-flow.jpeg)
 
 ## Overview
 
